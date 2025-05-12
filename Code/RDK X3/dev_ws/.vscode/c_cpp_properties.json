@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**",
+                "/opt/ros/humble/include/std_msgs",
+                "/root/dev_ws/src/robot_driver/serial/include",
+                "/root/dev_ws/src/robot_base/include",
+                "/root/dev_ws/src/robot_param/include",
+                "/root/dev_ws/src/robot_base/launch",
+                "/root/dev_ws/src/robot_teleop/include",
+                "/root/dev_ws/src/robot_interfaces/msg/**",
+                "/root/dev_ws/src/robot_interfaces/srv/**",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}

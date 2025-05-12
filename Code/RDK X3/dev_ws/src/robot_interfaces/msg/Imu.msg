@@ -1,0 +1,6 @@
+float32 angular_velocity_x
+float32 angular_velocity_y
+float32 angular_velocity_z
+float32 roll
+float32 pitch
+float32 yaw

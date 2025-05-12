@@ -1,0 +1,30 @@
+/robot_param:
+  ros__parameters:
+    PIDPitch_kd: 0.0
+    PIDPitch_ki: 0.0
+    PIDPitch_kp: 1.0
+    PIDRoll_kd: 0.0
+    PIDRoll_ki: 0.0
+    PIDRoll_kp: 4.0
+    PIDX_kd: 0.0
+    PIDX_ki: 0.1
+    PIDX_kp: 100.0
+    PIDY_kd: 0.0
+    PIDY_ki: 0.1
+    PIDY_kp: 100.0
+    PIDYaw_kd: 0.0
+    PIDYaw_ki: 0.0
+    PIDYaw_kp: 3.0
+    PIDZ_kd: 0.0
+    PIDZ_ki: 0.0
+    PIDZ_kp: 100.0
+    PID_flag: false
+    PID_interval: 1
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    use_sim_time: false
